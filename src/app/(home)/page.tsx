@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import React from 'react'
 import { Navbar } from './navbar'
+import { TemplateGallery } from './templates-gallery'
 
 const Home = () => {
   return (
@@ -10,8 +11,7 @@ const Home = () => {
         <Navbar />
       </div>
       <div className='mt-16'>
-        Hello World
-        <Link href="/documents/123">Click</Link>
+        <TemplateGallery />
       </div>
     </div>
   )
