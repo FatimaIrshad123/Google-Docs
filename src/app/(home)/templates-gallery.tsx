@@ -5,7 +5,6 @@ import { templates } from "@/constants/templates";
 import { cn } from "@/lib/utils";
 
 
-
 export const TemplateGallery = () => {
     const isCreating = false;
     return (
