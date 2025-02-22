@@ -38,3 +38,5 @@ const ErrorPage = ({error, reset}: {
         </div>
     )
 }
+
+export default ErrorPage;
