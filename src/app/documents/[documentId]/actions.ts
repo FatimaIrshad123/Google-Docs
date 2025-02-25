@@ -11,6 +11,7 @@ export async function getDocuments(ids:Id<"documents">[]) {
     return await convex.query(api.documents.getByIds, { ids })
 }
 
+
 export async function getUsers() {
     const { sessionClaims } = await auth();
     const clerk = await clerkClient();
