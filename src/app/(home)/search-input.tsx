@@ -7,7 +7,7 @@ import { SearchIcon, XIcon } from "lucide-react"
 import { useRef, useState } from "react"
 
 export const SearchInput = () => {
-    const [search, setSearch] = useSearchParam("")
+    const [search, setSearch] = useSearchParam()
     const [value, setValue] = useState("");
 
     const inputRef = useRef<HTMLInputElement>(null);
